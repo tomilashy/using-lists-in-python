@@ -5,7 +5,7 @@ Created on May 5, 2018
 '''
  #list
 name =  ['p','r','o','g','r','a','m','m','e','r']
-
+print(name[5],"\n")
 #iterate 
 for x in name:
     print(x)
@@ -32,7 +32,7 @@ nexts=name[1:9:2];print(nexts)
 print("****index****")
 print ("the first m is at position ",name.index('m'))
 #print (name.index('z'))  #ValueError: 'z' is not in list   
-print ("the first m is at position ",name.index('m',name.index('m')+1)) #looks for the next "m" on the list 
+print ("the next m is at position ",name.index('m',name.index('m')+1)) #looks for the next "m" on the list 
 
 #reverse
 print("****reverse****")
